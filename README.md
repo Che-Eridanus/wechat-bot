@@ -213,32 +213,6 @@ wb agent --im wechat --agent pi
 - [gpt4free](https://github.com/xtekky/gpt4free)
 - [chatanywhere](https://github.com/chatanywhere/GPT_API_free)
 
-## 赞助商
-
-<div align="center">
-  <table>
-    <!-- Header -->
-    <tr>
-      <td align="center">
-        <p align="center">
-          <a href="https://api.shenfengwl.fun/" target="_blank">
-            <img src="./sponsors/shenfengwl.png" alt="深风网络" width="500px"/>
-          </a>
-        </p>
-      </td>
-    </tr>
-    <!-- Description -->
-    <tr>
-      <td align="left">
-        主营海外主流大模型中转聚合API平台，高效稳定，高并发，价格超低
-        <a href="https://api.shenfengwl.fun/" target="_blank">产品链接</a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-目前该项目流量较大，已经上过 27 次 [Github Trending 榜](https://github.com/trending)，如果您的公司或者产品需要推广，可以在下方二维码处联系我，我会在项目中加入您的广告，帮助您的产品获得更多的曝光。
-
 ## 开发/使用
 
 检查好自己的开发环境，确保已经安装了 `nodejs` , 版本需要满足 Node.js >= v18.0 ，版本太低会导致运行报错,最好使用 LTS 版本。
