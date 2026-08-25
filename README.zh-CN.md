@@ -8,6 +8,22 @@
 
 如果你希望把 Pi 作为本项目的 agent，用微信、飞书、Telegram 或 WhatsApp 作为外部通信渠道，直接看：[Pi Agent + IM 使用说明](./docs/pi-im-agent.zh-CN.md)。
 
+<!-- ad-slot:autoclaw:start -->
+
+## 赞助商
+
+<div align="center">
+  <a href="https://autoclaw.zhipuai.cn/?utm_source=github&utm_medium=readme&utm_campaign=wechat-bot">
+    <img src="./sponsors/autoclaw.png" alt="智谱 AutoClaw" width="48" />
+  </a>
+  <p>
+    <a href="https://autoclaw.zhipuai.cn/?utm_source=github&utm_medium=readme&utm_campaign=wechat-bot"><b>智谱 AutoClaw</b></a> · 替你干活的 AI 搭档，一键接入飞书 / 企业微信 / 微信<br />
+    <sub>广告位 · 想在这里曝光可以联系作者</sub>
+  </p>
+</div>
+
+<!-- ad-slot:autoclaw:end -->
+
 ## 能力概览
 
 | 能力                           | 命令入口                                                             | 当前状态                               |

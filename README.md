@@ -8,6 +8,22 @@ It can route IM messages received from WeChat QR-code login, Lark IM events, Tel
 
 If you want to use Pi as the project agent and WeChat, Lark, Telegram, or WhatsApp as the external communication channel, start with [Pi Agent + IM Guide](./docs/pi-im-agent.md).
 
+<!-- ad-slot:autoclaw:start -->
+
+## Sponsors
+
+<div align="center">
+  <a href="https://autoclaw.z.ai/?utm_source=github&utm_medium=readme&utm_campaign=wechat-bot">
+    <img src="./sponsors/autoclaw.png" alt="AutoClaw" width="48" />
+  </a>
+  <p>
+    <a href="https://autoclaw.z.ai/?utm_source=github&utm_medium=readme&utm_campaign=wechat-bot"><b>AutoClaw</b></a> · An AI agent that works for you, one click to connect WhatsApp / Telegram / Discord<br />
+    <sub>Sponsored slot. Contact the author to feature your product here.</sub>
+  </p>
+</div>
+
+<!-- ad-slot:autoclaw:end -->
+
 ## Feature Overview
 
 | Feature | Command entry | Status |
