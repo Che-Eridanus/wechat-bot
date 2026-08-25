@@ -18,7 +18,6 @@
   </a>
   <p>
     <a href="https://autoclaw.zhipuai.cn/?utm_source=github&utm_medium=readme&utm_campaign=wechat-bot"><b>智谱 AutoClaw</b></a> · 替你干活的 AI 搭档，一键接入飞书 / 企业微信 / 微信<br />
-    <sub>广告位 · 想在这里曝光可以联系作者</sub>
   </p>
 </div>
 
@@ -114,8 +113,7 @@ wb agent --im wechat --agent pi
 
 - deepseek
 
-  获取自己的 `api key`，地址戳这里 👉🏻 ：[deepseek 开放平台](https://platform.deepseek.com/usage)
-  将获取到的`api key`填入 `.evn` 文件中的 `DEEPSEEK_FREE_TOKEN` 中。
+  获取自己的 `api key`，地址戳这里 👉🏻 ：[deepseek 开放平台](https://platform.deepseek.com/usage) 将获取到的`api key`填入 `.evn` 文件中的 `DEEPSEEK_FREE_TOKEN` 中。
 
 - ChatGPT
 
@@ -161,15 +159,11 @@ wb agent --im wechat --agent pi
 
 - 科大讯飞
 
-  新增科大讯飞，去这里申请一个 key：[科大讯飞](https://console.xfyun.cn/services/bm35)，每个模型都有 200 万的免费 token ，感觉很难用完。
-  注意： 讯飞的配置文件几个 key，别填反了，很多人找到我说为什么不回复，都是填反了。
-  而且还有一个好处就是，接口不会像 Kimi 一样限制请求频次，相对来说稳定很多。
-  服务出错可参考： [issues/170](https://github.com/wangrongding/wechat-bot/issues/170), [issues/180](https://github.com/wangrongding/wechat-bot/issues/180)
+  新增科大讯飞，去这里申请一个 key：[科大讯飞](https://console.xfyun.cn/services/bm35)，每个模型都有 200 万的免费 token ，感觉很难用完。注意： 讯飞的配置文件几个 key，别填反了，很多人找到我说为什么不回复，都是填反了。而且还有一个好处就是，接口不会像 Kimi 一样限制请求频次，相对来说稳定很多。服务出错可参考： [issues/170](https://github.com/wangrongding/wechat-bot/issues/170), [issues/180](https://github.com/wangrongding/wechat-bot/issues/180)
 
 - Kimi （请求限制较严重）
 
-  可以去 ： [kimi apikey](https://platform.moonshot.cn/console/api-keys) 获取你的 key
-  最近比较忙，大家感兴趣可以提交 PR，我会尽快合并。目前 Kimi 刚刚集成，还可以实现上传文件等功能，然后有其它较好的服务也可以提交 PR 。
+  可以去 ： [kimi apikey](https://platform.moonshot.cn/console/api-keys) 获取你的 key 最近比较忙，大家感兴趣可以提交 PR，我会尽快合并。目前 Kimi 刚刚集成，还可以实现上传文件等功能，然后有其它较好的服务也可以提交 PR 。
 
 - dify
 
@@ -225,8 +219,7 @@ wb agent --im wechat --agent pi
   CLAUDE_SYSTEM = ''
   ```
 
-- 其他
-  （待实践）理论上使用 openAI 格式的 api，都可以使用，在 env 文件中修改对应的 api_key、model、proxy_url 即可。
+- 其他（待实践）理论上使用 openAI 格式的 api，都可以使用，在 env 文件中修改对应的 api_key、model、proxy_url 即可。
 
 ## API资源/平台收录
 
@@ -239,9 +232,7 @@ wb agent --im wechat --agent pi
 
 ### 1. 安装依赖
 
-> 安装依赖时，大陆的朋友推荐切到 taobao 镜像源后再安装，命令：
-> `npm config set registry https://registry.npmmirror.com`
-> 想要灵活切换，推荐使用我的工具 👉🏻 [prm-cli](https://github.com/wangrongding/prm-cli) 快速切换。
+> 安装依赖时，大陆的朋友推荐切到 taobao 镜像源后再安装，命令： `npm config set registry https://registry.npmmirror.com` 想要灵活切换，推荐使用我的工具 👉🏻 [prm-cli](https://github.com/wangrongding/prm-cli) 快速切换。
 
 ```sh
 npm i
@@ -539,14 +530,11 @@ PI_AGENT_ARGS='--print --no-session'
 
 近期微信审查很严格，大量用户反映弹出外挂警告，由于项目内默认使用的是免费版的 web 协议，所以目前来说很容易会被微信检测到，建议使用 pad 协议，或者自行购买企业版协议，避免被封号。
 
-修改可参考： https://github.com/wangrongding/wechat-bot/pull/263/files
-自行购买 pad 协议渠道（wechaty 出的，购买仍需谨慎）：http://pad-local.com
-由于底层依赖的 wechaty 本身不怎么维护了，听说是被腾讯告了，所以大家购买也要谨慎，群友分享目前 pad 协议可正常使用(但频繁登录登出也会收到警告)，最好别一次性买太久的。
+修改可参考： https://github.com/wangrongding/wechat-bot/pull/263/files 自行购买 pad 协议渠道（wechaty 出的，购买仍需谨慎）：http://pad-local.com 由于底层依赖的 wechaty 本身不怎么维护了，听说是被腾讯告了，所以大家购买也要谨慎，群友分享目前 pad 协议可正常使用(但频繁登录登出也会收到警告)，最好别一次性买太久的。
 
 ## 常见问题
 
-以下是我的微信和群二维码，添加的时候记得备注清楚来意。
-希望可以一起交流探讨相关问题和解决方案。
+以下是我的微信和群二维码，添加的时候记得备注清楚来意。希望可以一起交流探讨相关问题和解决方案。
 
 | <img src="https://github.com/user-attachments/assets/902b1a20-0ea0-4348-9ac1-b9eb6645223c" width="180px"> | <img src="https://raw.githubusercontent.com/wangrongding/image-house/master/WechatIMG173.jpg" width="180px"> |
 | --- | --- |

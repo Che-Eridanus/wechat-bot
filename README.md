@@ -18,7 +18,6 @@ If you want to use Pi as the project agent and WeChat, Lark, Telegram, or WhatsA
   </a>
   <p>
     <a href="https://autoclaw.z.ai/?utm_source=github&utm_medium=readme&utm_campaign=wechat-bot"><b>AutoClaw</b></a> · An AI agent that works for you, one click to connect WhatsApp / Telegram / Discord<br />
-    <sub>Sponsored slot. Contact the author to feature your product here.</sub>
   </p>
 </div>
 
@@ -240,9 +239,7 @@ Make sure your development environment has `nodejs` installed. The required vers
 
 ### 1. Install dependencies
 
-> For users in mainland China, switching to the Taobao npm mirror before installing dependencies may help:
-> `npm config set registry https://registry.npmmirror.com`
-> For flexible registry switching, you can use [prm-cli](https://github.com/wangrongding/prm-cli).
+> For users in mainland China, switching to the Taobao npm mirror before installing dependencies may help: `npm config set registry https://registry.npmmirror.com` For flexible registry switching, you can use [prm-cli](https://github.com/wangrongding/prm-cli).
 
 ```sh
 npm i
