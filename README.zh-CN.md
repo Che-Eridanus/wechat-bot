@@ -592,7 +592,7 @@ $ docker run -d --rm --name wechat-bot -v $(pwd)/.env:/app/.env wechat-bot
 
 该项目于 2023/2/13 日成为 Github Trending 榜首。
 
-[![Star History Chart](https://api.star-history.com/svg?repos=wangrongding/wechat-bot&type=Date)](https://star-history.com/#wangrongding/wechat-bot&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=wangrongding/wechat-bot&type=Date)](https://star-history.dera.page/#wangrongding/wechat-bot&Date)
 
 ## License
 
